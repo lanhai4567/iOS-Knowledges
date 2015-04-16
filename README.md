@@ -17,14 +17,27 @@
 ## UIKit
 
 ## 布局自适应
+### Auto Layout、Size Classes
 - [为iPhone 6设计自适应布局](http://www.cocoachina.com/ios/20141020/9978.html)
 - [iOS 开发实践之 Auto Layout](http://xuexuefeng.com/autolayout/)
 - [iOS8 Xcode6中Size Classes简单使用教程](http://www.swiftmi.com/topic/105.html)
 
+### NSLayoutConstraint
+
+### Visual Format Language
+
+### Masonry
+- [github](https://github.com/SnapKit/Masonry)
+- [Masonry介绍与使用实践(快速上手Autolayout) ](http://adad184.com/2014/09/28/use-masonry-to-quick-solve-autolayout/)
+
+### Cartography
+### FLKAutoLayout
 
 ## 数据存储
 
 ## 网络通信
+### AFNetworking
+- [github](https://github.com/AFNetworking/AFNetworking)
 
 ## Json
 
@@ -37,6 +50,7 @@
 ## Core Animation
 
 ## 国际化
+- [iOS应用国际化教程](http://www.cocoachina.com/industry/20140526/8554.html)
 
 ## 推送
 
