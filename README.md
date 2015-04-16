@@ -12,10 +12,15 @@
 - [The Swift Programming Language 中文版](http://numbbbbb.gitbooks.io/-the-swift-programming-language-/content/)
 
 ## 布局
+- [代码手写UI，xib和StoryBoard间的博弈](http://onevcat.com/2013/12/code-vs-xib-vs-storyboard/)
 
 ## UIKit
 
-## 屏幕适配
+## 布局自适应
+- [为iPhone 6设计自适应布局](http://www.cocoachina.com/ios/20141020/9978.html)
+- [iOS 开发实践之 Auto Layout](http://xuexuefeng.com/autolayout/)
+- [iOS8 Xcode6中Size Classes简单使用教程](http://www.swiftmi.com/topic/105.html)
+
 
 ## 数据存储
 
