@@ -13,6 +13,13 @@
 - [The Swift Programming Language 中文版](http://numbbbbb.gitbooks.io/-the-swift-programming-language-/content/)
 
 ## 布局
+iOS中进行界面布局有三种方式：代码手写UI、使用InterfaceBuilder进行xib布局、storyboard。
+
+代码手写UI，完全通过手写代码布局,灵活性强,代码可重用，但开发效率低，而且必须到运行时才能知道布局效果。
+
+xib，使用InterfaceBuilder可视化界面布局，所见即所得，开发效率高，但灵活性差。
+
+storyboard，由多个xib以及导航关系合成，可看做是一组xib，以及xib之间的转换方式的集合。故事版清晰地展示出界面中的逻辑和层次结构。也是Apple对开发者的建议和未来的方向。
 - [代码手写UI，xib和StoryBoard间的博弈](http://onevcat.com/2013/12/code-vs-xib-vs-storyboard/)
 
 ## UIKit
