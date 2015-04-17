@@ -31,6 +31,8 @@ storyboard，由多个xib以及导航关系合成，可看做是一组xib，以�
 - [iOS8 Xcode6中Size Classes简单使用教程](http://www.swiftmi.com/topic/105.html)
 
 ### NSLayoutConstraint
+- [学习AutoLayout（NSLayoutConstraint）](http://www.jianshu.com/p/ebb8570ad70f)
+- [iOS在代码中使用Autolayout](http://gaoxiaosong.xsweby.com/2014/04/07/ios-code-autolayout.html)
 
 ### Visual Format Language
 
