@@ -35,6 +35,9 @@ storyboard，由多个xib以及导航关系合成，可看做是一组xib，以�
 - [iOS在代码中使用Autolayout](http://gaoxiaosong.xsweby.com/2014/04/07/ios-code-autolayout.html)
 
 ### Visual Format Language
+- [使用Auto Layout中的VFL(Visual format language)](http://www.cnblogs.com/wupei/p/4150626.html)
+- [在UIScrollView中使用Auto Layout中的VFL](http://www.cnblogs.com/wupei/p/4428164.html)
+- [Visual Format Language官方文档](https://developer.apple.com/library/mac/documentation/UserExperience/Conceptual/AutolayoutPG/VisualFormatLanguage/VisualFormatLanguage.html#//apple_ref/doc/uid/TP40010853-CH3-SW1)
 
 ### Masonry
 - [github](https://github.com/SnapKit/Masonry)
