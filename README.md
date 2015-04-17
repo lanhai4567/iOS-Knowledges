@@ -26,25 +26,36 @@ storyboard，由多个xib以及导航关系合成，可看做是一组xib，以�
 
 ## 布局自适应
 ### Auto Layout、Size Classes
+iOS6新增的Auto Layout和iOS8新增的Size Classes。
 - [为iPhone 6设计自适应布局](http://www.cocoachina.com/ios/20141020/9978.html)
 - [iOS 开发实践之 Auto Layout](http://xuexuefeng.com/autolayout/)
 - [iOS8 Xcode6中Size Classes简单使用教程](http://www.swiftmi.com/topic/105.html)
+- [Auto Layout官方文档](https://developer.apple.com/library/ios/recipes/xcode_help-IB_auto_layout/_index.html#//apple_ref/doc/uid/TP40014226)
+- [Size Classes官方文档](https://developer.apple.com/library/ios/recipes/xcode_help-IB_adaptive_sizes/_index.html#//apple_ref/doc/uid/TP40014436)
 
 ### NSLayoutConstraint
+通过代码创建约束实现Auto Layout，Apple难用的NSLayoutConstraint工厂。
 - [学习AutoLayout（NSLayoutConstraint）](http://www.jianshu.com/p/ebb8570ad70f)
 - [iOS在代码中使用Autolayout](http://gaoxiaosong.xsweby.com/2014/04/07/ios-code-autolayout.html)
 
 ### Visual Format Language
+同样也是通过代码创建约束，Visual Format Language基于字符串，不利于编译器检查，可读性差。
 - [使用Auto Layout中的VFL(Visual format language)](http://www.cnblogs.com/wupei/p/4150626.html)
 - [在UIScrollView中使用Auto Layout中的VFL](http://www.cnblogs.com/wupei/p/4428164.html)
 - [Visual Format Language官方文档](https://developer.apple.com/library/mac/documentation/UserExperience/Conceptual/AutolayoutPG/VisualFormatLanguage/VisualFormatLanguage.html#//apple_ref/doc/uid/TP40010853-CH3-SW1)
 
 ### Masonry
+轻量级的布局框架，简洁的链式语法，可读性高。
 - [github](https://github.com/SnapKit/Masonry)
 - [Masonry介绍与使用实践(快速上手Autolayout) ](http://adad184.com/2014/09/28/use-masonry-to-quick-solve-autolayout/)
 
 ### Cartography
+利用Swift丰富的操作符重载特性，声明Auto Layout。
+- [github](https://github.com/robb/Cartography)
+
 ### FLKAutoLayout
+一个干净的原生API包装框架。
+- [github](https://github.com/floriankugler/FLKAutoLayout)
 
 ## 数据存储
 
