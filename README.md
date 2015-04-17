@@ -62,11 +62,15 @@ iOS6新增的Auto Layout和iOS8新增的Size Classes。
 Asset Catalog用来管理任意图片（包括app icon、启动图片）如@1x，@2x，@3x图片,使用的时候使用Asset名字。还可以可视化处理图片进行拉伸。
 - [Asset Catalog官方文档](https://developer.apple.com/library/ios/recipes/xcode_help-image_catalog-1.0/Recipe.html)
 
+还可以通过使用向量图(PDFs)加入到asset catalogs，Xcode可以自动地根据它们生成位图。
+- [USING VECTOR IMAGES IN XCODE 6](http://martiancraft.com/blog/2014/09/vector-images-xcode6/)
+
 关于@1x，@2x，@3x：iOS中图片通过@1x，@2x，@3x为不同分辨率的设备统一为一个尺寸所作的标记
 - [切图常说的@1X@2X@3X是什么意思？-知乎](http://www.zhihu.com/question/26195746)
 
-还可以通过使用向量图(PDFs)加入到asset catalogs，Xcode可以自动地根据它们生成位图。
-- [USING VECTOR IMAGES IN XCODE 6](http://martiancraft.com/blog/2014/09/vector-images-xcode6/)
+## 设计规范、流程
+- [iPhone、iPad app设计规范](http://www.ui001.com/chicun/)
+- [iOS APP设计一稿支持iPhone5/iPhone6/Plus设计流程](http://www.ui001.com/article/visual/ios-app-she-ji-yi-gao-zhi-chi-iphone5-iphone6-plus-she-ji-liu-cheng.html)
 
 ## 数据存储
 
