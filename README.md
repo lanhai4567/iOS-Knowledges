@@ -85,6 +85,10 @@ Apple中经常用的委托执行回调。
 - [iOS视图控制器之间delegate传值教程](http://mojijs.com/2014/10/160124/index.html)
 - [IOS 委托代理（delegate）实现页面传值](http://www.androiddev.net/lvesli_delegate/)
 
+### Callback blocks (回调代码块)
+block也可以实现回调，实现过程比委托回调更简洁。
+- [Objective-C中的Block回调模式](http://www.cnblogs.com/ludashi/p/3922911.html)
+
 ### NSNotificationCenter
 一种类似广播的消息通知机制。观察者只需要向消息中心注册，当有地方发出这个消息的时候，通知中心会发送给注册这个消息的对象。
 - [iOS的消息传递机制—NSNotificationCenter](http://segmentfault.com/a/1190000000610302)
