@@ -2,7 +2,6 @@
 
 
 ## Objective-C
-
 ### 基本语法
 - [十分钟让你明白Objective-C的语法（和Java、C++的对比）](http://blog.csdn.net/totogo2010/article/details/7632384) 
 - [Objective-C语法快速参考](http://www.cocoachina.com/b/?p=122) 简单的介绍，语法快速入门。
@@ -81,6 +80,11 @@ Asset Catalog用来管理任意图片（包括app icon、启动图片）如@1x�
 ## Json
 
 ## 事件通知
+### Key-Value Observing (KVO，键值编码)
+KVO源于设计模式中的观察者模式，简单的说就是：指定的被观察的对象的属性被修改后，KVO就会自动通知相应的观察者。
+- [Objective-C之KVC、KVO](http://www.cnblogs.com/kenshincui/p/3871178.html)
+- [详解键值观察（KVO）及其实现机理](http://www.cppblog.com/kesalin/archive/2012/11/17/kvo.html)
+- [Registering for Key-Value Observing](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/KeyValueObserving/Articles/KVOBasics.html#//apple_ref/doc/uid/20002252-BAJEAIEE) 官方文档
 
 ## 多线程
 
