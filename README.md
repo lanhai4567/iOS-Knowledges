@@ -80,6 +80,12 @@ Asset Catalog用来管理任意图片（包括app icon、启动图片）如@1x�
 ## Json
 
 ## 事件通知
+### NSNotificationCenter
+一种类似广播的消息通知机制。观察者只需要向消息中心注册，当有地方发出这个消息的时候，通知中心会发送给注册这个消息的对象。
+- [iOS的消息传递机制—NSNotificationCenter](http://segmentfault.com/a/1190000000610302)
+- [NSNotificationCenter](https://developer.apple.com/library/ios/documentation/Cocoa/Reference/Foundation/Classes/NSNotificationCenter_Class/index.html#//apple_ref/doc/uid/TP40003701) 官方文档
+
+
 ### Key-Value Observing (KVO，键值编码)
 KVO源于设计模式中的观察者模式，简单的说就是：指定的被观察的对象的属性被修改后，KVO就会自动通知相应的观察者。
 - [Objective-C之KVC、KVO](http://www.cnblogs.com/kenshincui/p/3871178.html)
