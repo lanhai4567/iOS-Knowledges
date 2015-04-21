@@ -102,7 +102,16 @@ KVO源于设计模式中的观察者模式，简单的说就是：指定的被�
 
 ## 多线程
 
-## CoreGraphic
+## Core Graphics、Quartz 2D
+Core Graphics框架是一组用于绘制2D图形的API，使用CPU进行计算。
+
+Quartz 2D是Core Graphics的一部分，基于C的API。
+- [Drawing iOS 7 2D Graphics with Core Graphics](http://www.techotopia.com/index.php/Drawing_iOS_7_2D_Graphics_with_Core_Graphics) Core Graphics、Quartz 2D简介。
+- [An iOS 7 Graphics Tutorial using Core Graphics and Core Image
+](http://www.techotopia.com/index.php/An_iOS_7_Graphics_Tutorial_using_Core_Graphics_and_Core_Image) Graphics、Quartz 2D绘图API示例。
+- [Core Graphics Tutorial for iOS](http://www.raywenderlich.com/tag/core-graphics) Core Graphics使用实例。
+- [Quartz 2D Programming Guide](https://developer.apple.com/library/ios/documentation/GraphicsImaging/Conceptual/drawingwithquartz2d/Introduction/Introduction.html#//apple_ref/doc/uid/TP40007533-SW1) Quartz 2D官方文档
+
 
 ## Core Animation
 
