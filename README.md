@@ -112,8 +112,12 @@ Quartz 2D是Core Graphics的一部分，基于C的API。
 - [Core Graphics Tutorial for iOS](http://www.raywenderlich.com/tag/core-graphics) Core Graphics使用实例。
 - [Quartz 2D Programming Guide](https://developer.apple.com/library/ios/documentation/GraphicsImaging/Conceptual/drawingwithquartz2d/Introduction/Introduction.html#//apple_ref/doc/uid/TP40007533-SW1) Quartz 2D官方文档
 
-
 ## Core Animation
+Core Animation是iOS与OS X平台上负责图形渲染与动画的基础，可以动画视图和其他的可视元素，完成动画所需的绘帧。
+- [Core Animation Programming Guide](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/CoreAnimation_guide/Introduction/Introduction.html) Core Animation官方文档
+- [Core Animation Programming Guide官方文档中文版pdf](http://pan.baidu.com/s/1mgqXr08)
+- [iOS-Core-Animation-Advanced-Techniques英文版pdf](http://pan.baidu.com/s/1qWxAFec)
+- [iOS-Core-Animation-Advanced-Techniques中文翻译](https://github.com/AttackOnDobby/iOS-Core-Animation-Advanced-Techniques)
 
 ## 国际化
 - [iOS应用国际化教程](http://www.cocoachina.com/industry/20140526/8554.html)
