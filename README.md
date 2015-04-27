@@ -128,6 +128,12 @@ Core Animation是iOS与OS X平台上负责图形渲染与动画的基础，可�
 ## Xcode
 
 ## 工具、插件
+### CocoaPods
+开发 OS X 和 iOS 应用程序的一个第三方库的依赖管理工具。使用CocoaPods的目的是可以自动化、集中、直观的管理第三方开源库。配置安装CocoaPods需要同时配置[Ruby](http://blog.csdn.net/maojudong/article/details/7918291)环境。
+- [CocoaPods](https://cocoapods.org/)
+- [CocoaPods详解之----使用篇](http://blog.csdn.net/wzzvictory/article/details/18737437)
+- [CocoaPods详解之----进阶篇](http://blog.csdn.net/wzzvictory/article/details/19178709)
+- [深入理解 CocoaPods](http://objccn.io/issue-6-4/)
 
 ## 第三方平台
 
