@@ -79,6 +79,11 @@ Asset Catalog用来管理任意图片（包括app icon、启动图片）如@1x�
 - [github](https://github.com/AFNetworking/AFNetworking)
 
 ## Json
+### Mantle
+Mantle能简化Cocoa和Cocoa Touch应用的model层，把json转换为Model。
+- [github](https://github.com/Mantle/Mantle)
+- [工具篇：Mantle](http://southpeak.github.io/blog/2015/01/11/gong-ju-pian-:mantle/)、 [源码篇：Mantle](http://southpeak.github.io/blog/2015/01/11/yuan-ma-pian-:mantle/)
+- [使用Mantle处理Model层对象](http://blog.codingcoder.com/use-mantle-to-model/)
 
 ## 事件通知
 ### 委托(Delegate)
