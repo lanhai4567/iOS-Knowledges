@@ -79,6 +79,7 @@ Asset Catalog用来管理任意图片（包括app icon、启动图片）如@1x�
 - [github](https://github.com/AFNetworking/AFNetworking)
 
 ## Json
+iOS中经常要进行网络请求，请求到得一般是json字符串，一般会建一个Model 类来存放这些Json数据。这就需要编写一系列的序列化代码，来把json转换为Model。这很费时间，容易错，不容易修改。 使用一些第三方库能很好的解决了这个问题，而且更易用。
 ### Mantle
 Mantle能简化Cocoa和Cocoa Touch应用的model层，把json转换为Model。
 - [github](https://github.com/Mantle/Mantle)
