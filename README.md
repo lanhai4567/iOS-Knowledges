@@ -8,6 +8,10 @@
 - [维基百科Objective-C](http://zh.wikipedia.org/wiki/Objective-C) 推荐阅读，维基百科对于Objective-C较为详细的介绍。
 - [苹果官方Objective-C开发说明文档](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html)  官方权威。
 
+### 推荐书籍
+- [Objective-C Programming:The Big Nerd Ranch Guide (2nd Edition)](http://download.csdn.net/detail/ipod4g/6644547)
+- [iOS 编程（第四版）] The Big Nerd Ranch 著
+- [iOS开发进阶] 唐巧著
 ## Swift
 - [The Swift Programming Language 中文版](http://numbbbbb.gitbooks.io/-the-swift-programming-language-/content/)
 
