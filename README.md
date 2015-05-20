@@ -73,9 +73,10 @@ Asset Catalog用来管理任意图片（包括app icon、启动图片）如@1x�
 - [切图常说的@1X@2X@3X是什么意思？-知乎](http://www.zhihu.com/question/26195746)
 
 ## 设计规范、流程
+- [iPhone屏幕适配，历史及现状](http://www.ui001.com/chicun/) 每一代iPhone屏幕适配的详细介绍。
 - [iPhone、iPad app设计规范](http://www.ui001.com/chicun/)
 - [iOS APP设计一稿支持iPhone5/iPhone6/Plus设计流程](http://www.ui001.com/article/visual/ios-app-she-ji-yi-gao-zhi-chi-iphone5-iphone6-plus-she-ji-liu-cheng.html)
-- [APP界面设计——IOS字体规范与多屏幕适配](http://www.ui.cn/detail/40563.html) 关于字体的规范
+- [APP界面设计——IOS字体规范与多屏幕适配](http://www.ui.cn/detail/40563.html) 关于字体的规范。
 
 ## 数据存储
 
