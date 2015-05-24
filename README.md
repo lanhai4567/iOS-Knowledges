@@ -138,6 +138,8 @@ Core Animation是iOS与OS X平台上负责图形渲染与动画的基础，可�
 ## 推送
 
 ## Xcode
+关于Xcode的一些介绍和调试技巧。
+- [IOS各种调试技巧豪华套餐](http://www.cnblogs.com/daiweilai/p/4421340.html)
 
 ## 工具、插件
 ### CocoaPods
@@ -146,6 +148,10 @@ Core Animation是iOS与OS X平台上负责图形渲染与动画的基础，可�
 - [CocoaPods详解之----使用篇](http://blog.csdn.net/wzzvictory/article/details/18737437)
 - [CocoaPods详解之----进阶篇](http://blog.csdn.net/wzzvictory/article/details/19178709)
 - [深入理解 CocoaPods](http://objccn.io/issue-6-4/)
+
+### 其他
+- [Host生成器](http://pan.baidu.com/s/1gdfDCQJ)，再也不用担心谷歌打不开，账号登陆不了谷歌，同步不了书签啦。
+
 
 ## 第三方平台
 
