@@ -8,6 +8,12 @@
 - [维基百科Objective-C](http://zh.wikipedia.org/wiki/Objective-C) 推荐阅读，维基百科对于Objective-C较为详细的介绍。
 - [苹果官方Objective-C开发说明文档](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html)  官方权威。
 
+### Runtime
+Objective-C是一门动态语言，它将很多静态语言在编译和链接时期做的事放到了运行时来处理。
+动态语言的优势在于：写代码时更具灵活性，可以把消息转发给我们想要的对象，或者随意交换一个方法的实现等。
+所以只有编译器是不够的，还需要一个运行时系统来执行编译后的代码，这个运行时系统就是Objc Runtime。
+- [Objective-C Runtime](http://yulingtianxia.com/blog/2014/11/05/objective-c-runtime/) 
+
 ### 推荐书籍
 - [Objective-C Programming:The Big Nerd Ranch Guide (2nd Edition)](http://download.csdn.net/detail/ipod4g/6644547)
 - [iOS 编程（第四版）] The Big Nerd Ranch 著
