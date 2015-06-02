@@ -120,6 +120,11 @@ KVO源于设计模式中的观察者模式，简单的说就是：指定的被�
 - [Registering for Key-Value Observing](https://developer.apple.com/library/mac/documentation/Cocoa/Conceptual/KeyValueObserving/Articles/KVOBasics.html#//apple_ref/doc/uid/20002252-BAJEAIEE) 官方文档
 
 ## 多线程
+### GCD(Grand Central Dispatch)
+- [IOS多线程GCD](http://www.jianshu.com/p/0209327419a2)
+- [GCD 深入理解：第一部分](https://github.com/nixzhu/dev-blog/blob/master/2014-04-19-grand-central-dispatch-in-depth-part-1.md)
+- [GCD 深入理解：第二部分](https://github.com/nixzhu/dev-blog/blob/master/2014-05-14-grand-central-dispatch-in-depth-part-2.md)
+- [GCD(Grand Central Dispatch)教程](http://www.dreamingwish.com/article/gcdgrand-central-dispatch-jiao-cheng.html)
 
 ## Core Graphics、Quartz 2D
 Core Graphics框架是一组用于绘制2D图形的API，使用CPU进行计算。
@@ -160,4 +165,3 @@ Core Animation是iOS与OS X平台上负责图形渲染与动画的基础，可�
 
 
 ## 第三方平台
-
