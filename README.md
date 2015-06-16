@@ -58,8 +58,8 @@ iOS6新增的Auto Layout和iOS8新增的Size Classes。
 - [为iPhone 6设计自适应布局](http://www.cocoachina.com/ios/20141020/9978.html)
 - [iOS 开发实践之 Auto Layout](http://xuexuefeng.com/autolayout/)
 - [iOS8 Xcode6中Size Classes简单使用教程](http://www.swiftmi.com/topic/105.html)
-- [Auto Layout官方文档](https://developer.apple.com/library/ios/recipes/xcode_help-IB_auto_layout/_index.html#//apple_ref/doc/uid/TP40014226)
-- [Size Classes官方文档](https://developer.apple.com/library/ios/recipes/xcode_help-IB_adaptive_sizes/_index.html#//apple_ref/doc/uid/TP40014436)
+- [Auto Layout](https://developer.apple.com/library/ios/recipes/xcode_help-IB_auto_layout/_index.html#//apple_ref/doc/uid/TP40014226) 官方文档
+- [Size Classes](https://developer.apple.com/library/ios/recipes/xcode_help-IB_adaptive_sizes/_index.html#//apple_ref/doc/uid/TP40014436) 官方文档
 
 ### NSLayoutConstraint
 通过代码创建约束实现Auto Layout，Apple难用的NSLayoutConstraint工厂。
@@ -70,7 +70,7 @@ iOS6新增的Auto Layout和iOS8新增的Size Classes。
 同样也是通过代码创建约束，Visual Format Language基于字符串，不利于编译器检查，可读性差。
 - [使用Auto Layout中的VFL(Visual format language)](http://www.cnblogs.com/wupei/p/4150626.html)
 - [在UIScrollView中使用Auto Layout中的VFL](http://www.cnblogs.com/wupei/p/4428164.html)
-- [Visual Format Language官方文档](https://developer.apple.com/library/mac/documentation/UserExperience/Conceptual/AutolayoutPG/VisualFormatLanguage/VisualFormatLanguage.html#//apple_ref/doc/uid/TP40010853-CH3-SW1)
+- [Visual Format Language](https://developer.apple.com/library/mac/documentation/UserExperience/Conceptual/AutolayoutPG/VisualFormatLanguage/VisualFormatLanguage.html#//apple_ref/doc/uid/TP40010853-CH3-SW1) 官方文档
 
 ### Masonry
 轻量级的布局框架，简洁的链式语法，可读性高。
@@ -88,7 +88,7 @@ iOS6新增的Auto Layout和iOS8新增的Size Classes。
 ## 关于图片
 ### Asset Catalog
 Asset Catalog用来管理任意图片（包括app icon、启动图片）如@1x，@2x，@3x图片,使用的时候使用Asset名字。还可以可视化处理图片进行拉伸。
-- [Asset Catalog官方文档](https://developer.apple.com/library/ios/recipes/xcode_help-image_catalog-1.0/Recipe.html)
+- [Asset Catalog](https://developer.apple.com/library/ios/recipes/xcode_help-image_catalog-1.0/Recipe.html) 官方文档
 
 还可以通过使用向量图(PDFs)加入到asset catalogs，Xcode可以自动地根据它们生成位图。
 - [USING VECTOR IMAGES IN XCODE 6](http://martiancraft.com/blog/2014/09/vector-images-xcode6/)
@@ -102,7 +102,29 @@ Asset Catalog用来管理任意图片（包括app icon、启动图片）如@1x�
 - [iOS APP设计一稿支持iPhone5/iPhone6/Plus设计流程](http://www.ui001.com/article/visual/ios-app-she-ji-yi-gao-zhi-chi-iphone5-iphone6-plus-she-ji-liu-cheng.html)
 - [APP界面设计——IOS字体规范与多屏幕适配](http://www.ui.cn/detail/40563.html) 关于字体的规范。
 
-## 数据存储
+## 数据存储、持久化
+### 沙盒机制
+IOS应用程序只能在为该改程序创建的文件系统中读取文件，不可以去其它地方访问，此区域被成为沙盒，所以所有的非代码文件都要保存在此，例如图像，图标，声音，映像，属性列表，文本文件等。
+
+1.每个应用程序都有自己的存储空间。
+
+2.应用程序不能翻过自己的围墙去访问别的存储空间的内容。
+
+3.应用程序请求的数据都要通过权限检测，假如不符合条件的话，不会被放行。
+- [IOS SDK详解之沙盒（一）图解＋小工具](http://blog.csdn.net/hello_hwc/article/details/44855547) 
+- [IOS SDK详解之沙盒（二）文件操作＋文件应该存放的位置](http://blog.csdn.net/hello_hwc/article/details/44916909) 
+
+### NSUserDefaults
+NSUserDefaults用于存储轻量级的本地数据，以键值对的方式存储。
+- [iOS数据持久化之NSUserDefaults－保存Settings](http://blog.csdn.net/hello_hwc/article/details/45308557) 
+
+### Bundle
+Bundle就是一个标准化分层化的路径，这个目录保存了可执行代码以及这些代码执行的时候需要的资源文件。
+- [iOS Bundle详解](http://blog.csdn.net/hello_hwc/article/details/45439963) 
+
+### plist 属性列表
+属性列表（Property List）文件是一种用来存储序列化后的对象的文件。属性列表文件的文件扩展名为.plist。
+- [iOS 数据持久化之plist](http://blog.csdn.net/hello_hwc/article/details/45441609) 
 
 ## 网络通信
 ### AFNetworking
@@ -152,11 +174,11 @@ Quartz 2D是Core Graphics的一部分，基于C的API。
 - [An iOS 7 Graphics Tutorial using Core Graphics and Core Image
 ](http://www.techotopia.com/index.php/An_iOS_7_Graphics_Tutorial_using_Core_Graphics_and_Core_Image) Graphics、Quartz 2D绘图API示例。
 - [Core Graphics Tutorial for iOS](http://www.raywenderlich.com/tag/core-graphics) Core Graphics使用实例。
-- [Quartz 2D Programming Guide](https://developer.apple.com/library/ios/documentation/GraphicsImaging/Conceptual/drawingwithquartz2d/Introduction/Introduction.html#//apple_ref/doc/uid/TP40007533-SW1) Quartz 2D官方文档
+- [Quartz 2D Programming Guide](https://developer.apple.com/library/ios/documentation/GraphicsImaging/Conceptual/drawingwithquartz2d/Introduction/Introduction.html#//apple_ref/doc/uid/TP40007533-SW1) 官方文档
 
 ## Core Animation
 Core Animation是iOS与OS X平台上负责图形渲染与动画的基础，可以动画视图和其他的可视元素，完成动画所需的绘帧。
-- [Core Animation Programming Guide](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/CoreAnimation_guide/Introduction/Introduction.html) Core Animation官方文档
+- [Core Animation Programming Guide](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/CoreAnimation_guide/Introduction/Introduction.html) 官方文档
 - [Core Animation Programming Guide官方文档中文版pdf](http://pan.baidu.com/s/1mgqXr08)
 - [iOS-Core-Animation-Advanced-Techniques英文版pdf](http://pan.baidu.com/s/1qWxAFec)
 - [iOS-Core-Animation-Advanced-Techniques中文翻译](https://github.com/AttackOnDobby/iOS-Core-Animation-Advanced-Techniques)
