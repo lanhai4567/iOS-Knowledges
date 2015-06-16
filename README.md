@@ -14,6 +14,21 @@ Objective-C是一门动态语言，它将很多静态语言在编译和链接时
 所以Objective-C只有编译器是不够的，还需要一个运行时系统来执行编译后的代码，这个运行时系统就是Objc Runtime。
 - [Objective-C Runtime](http://yulingtianxia.com/blog/2014/11/05/objective-c-runtime/) 
 
+### 内存管理
+Objective-c有一套基于对象引用计数的内存管理体系。其内存管理经历了几个阶段的演变。
+- [Objective-c 内存管理的历史和参考资料](http://www.pchou.info/ios/2015/06/05/oc-memory-management.html) 
+
+#### 手动引用计数MRC (Manual Referecen Counting)
+- [Objective-C内存管理教程和原理剖析(一)基本原理](http://www.cnblogs.com/vinceyuan/archive/2010/03/08/1680488.html) 
+- [Objective-C内存管理教程和原理剖析(二)口诀与范式
+](http://www.cnblogs.com/VinceYuan/archive/2010/03/08/1680492.html) 
+- [Objective-C内存管理教程和原理剖析(三)@property (retain)和@synthesize的默认实现](http://www.cnblogs.com/VinceYuan/archive/2010/03/08/1680494.html) 
+- [Objective-C内存管理教程和原理剖析(四)系统自动创建新的autorelease pool](http://www.cnblogs.com/VinceYuan/archive/2010/03/08/1681062.html) 
+
+#### 自动引用计数ARC (Automatic Reference Counting)
+- [理解 Objective-C 的 ARC](http://www.oschina.net/translate/objc-automatic-reference-counting-in-xcode-explained) 
+- [手把手教你ARC——iOS/Mac开发ARC入门和使用](http://onevcat.com/2012/06/arc-hand-by-hand/) 
+
 ### 推荐书籍
 - [Objective-C Programming:The Big Nerd Ranch Guide (2nd Edition)](http://download.csdn.net/detail/ipod4g/6644547)
 - [iOS 编程（第四版）] The Big Nerd Ranch 著
