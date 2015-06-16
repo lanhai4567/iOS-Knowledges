@@ -15,7 +15,10 @@ Objective-C是一门动态语言，它将很多静态语言在编译和链接时
 - [Objective-C Runtime](http://yulingtianxia.com/blog/2014/11/05/objective-c-runtime/) 
 
 ### 内存管理
-Objective-c有一套基于对象引用计数的内存管理体系。其内存管理经历了几个阶段的演变。
+Objective-c有一套基于对象引用计数的内存管理体系。
+- [About Memory Management](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/MemoryMgmt/Articles/MemoryMgmt.html) 官方文档 
+
+Objective-c内存管理经历了几个阶段的演变。
 - [Objective-c 内存管理的历史和参考资料](http://www.pchou.info/ios/2015/06/05/oc-memory-management.html) 
 
 #### 手动引用计数MRC (Manual Referecen Counting)
