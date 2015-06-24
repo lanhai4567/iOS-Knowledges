@@ -125,6 +125,13 @@ Bundle就是一个标准化分层化的路径，这个目录保存了可执行�
 属性列表（Property List）文件是一种用来存储序列化后的对象的文件。属性列表文件的文件扩展名为.plist。
 - [iOS 数据持久化之plist](http://blog.csdn.net/hello_hwc/article/details/45441609) 
 
+### Core Data    Core Data Class Overview
+- [Introduction to Core Data Programming Guide](https://developer.apple.com/library/ios/documentation/Cocoa/Conceptual/CoreData/cdProgrammingGuide.html#//apple_ref/doc/uid/TP30001200-SW1)  官方文档
+- [Core Data Class Overview](http://cocoadevcentral.com/articles/000086.php) 
+- [初识Core Data(1)](http://yulingtianxia.com/blog/2014/05/01/chu-shi-core-data-1/)、 [初识Core Data(2)](http://yulingtianxia.com/blog/2014/05/02/chu-shi-core-data-2/)、 [CoreData处理海量数据](http://yulingtianxia.com/blog/2014/08/05/coredatachu-li-hai-liang-shu-ju/) 
+
+
+
 ## 网络通信
 ### AFNetworking
 - [github](https://github.com/AFNetworking/AFNetworking)
